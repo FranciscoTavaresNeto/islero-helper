@@ -3,7 +3,10 @@ Ajudante pro meu dia-a-dia com versões em React e Angular
 
 ### Módulos
 
+    -Login
+        pra controlar os dados de acordo com os usuários
     -Menu Inicial
+        pra escolher o módulo
     -Calculadora
         Pra manter o controle do meu dinheiro
     -Gerenciador de Máscaras
