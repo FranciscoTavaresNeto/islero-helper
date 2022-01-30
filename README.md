@@ -1,5 +1,5 @@
 # islero-helper
-Ajudante pro meu dia-a-dia com versões em React e Angular
+Ajudante pro meu dia-a-dia feito em Angular (ainda não decidi o back-end)
 
 ### Módulos
 
