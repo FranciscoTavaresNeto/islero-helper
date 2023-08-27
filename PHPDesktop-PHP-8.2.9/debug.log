@@ -43,3 +43,427 @@
 - 13:30:00.000 DEBUG: OnBrowserDestroyed()
 - 13:30:00.344 INFO: Ended application
 - 13:30:00.344 INFO: --------------------------------------------------------
+- 16:19:53.093 INFO: --------------------------------------------------------
+- 16:19:53.093 INFO: Started application
+- 16:19:53.093 INFO: Logging to: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log
+- 16:19:53.093 INFO: Log level = DEBUG4
+- 16:19:53.093 INFO: Starting Mongoose 3.9c web server
+- 16:19:53.093 INFO: WWW directory: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\www
+- 16:19:53.093 INFO: Index files: index.html,index.php
+- 16:19:53.093 INFO: CGI interpreter: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\php\php-cgi.exe
+- 16:19:53.093 INFO: CGI pattern: **.php$
+- 16:19:53.093 INFO: Hide files patterns: 
+- 16:19:53.093 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\FRANCI~1\AppData\Local\Temp\
+- 16:19:53.109 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 16:19:53.109 INFO: Web server url: http://127.0.0.1:55716/
+- 16:19:53.109 INFO: remote_debugging_port = 59811
+- 16:19:53.125 DEBUG: Command line string for the browser process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --remote-debugging-port=59811
+- 16:19:53.187 DEBUG: App::OnContextInitialized()
+- 16:19:53.187 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 16:19:53.187 DEBUG: Window max width/height = 1842/984
+- 16:19:53.187 DEBUG: GetBrowserWindow(): not found, hwnd = 394800
+- 16:19:53.187 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 16:19:53.187 DEBUG: BrowserWindow::CreateBrowserControl()
+- 16:19:53.187 DEBUG: StoreBrowserWindow(): hwnd = 394800
+- 16:19:53.250 DEBUG: ClientHandler::OnAfterCreated()
+- 16:19:53.250 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 16:19:53.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x699f --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.14057.5006 --gpu-driver-date=5-23-2023 --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --service-request-channel-token=7E03D1CBAE48D20DB493F679803FF1D0 --mojo-platform-channel-handle=1840 /prefetch:2
+- 16:19:53.265 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:19:53.000 DEBUG: Command line string for the renderer process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=4B06B351F34CEEE635EE9BD679276CB1 --lang=en-US --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=4B06B351F34CEEE635EE9BD679276CB1 --renderer-client-id=3 --mojo-platform-channel-handle=2428 /prefetch:1
+[0827/161953.630:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 16:19:53.047 DEBUG: OnBrowserCreated()
+- 16:19:54.562 INFO: GET 200 /
+- 16:19:54.562 INFO: GET 200 /style.css
+- 16:19:54.235 DEBUG: OnContextCreated()
+- 16:19:54.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55716/
+- 16:20:43.109 DEBUG: WM_DESTROY
+- 16:20:43.109 DEBUG: RemoveBrowserWindow(): hwnd = 394800
+- 16:20:43.109 INFO: Stopping Mongoose web server
+- 16:20:43.125 DEBUG: Mongoose webserver stopped immediately
+- 16:20:43.125 DEBUG: OnBeforeClose() hwnd=329252
+- 16:20:43.125 DEBUG: RemoveBrowserWindow(): hwnd = 329252
+- 16:20:43.140 DEBUG: GetBrowserWindow(): not found, hwnd = 329252
+- 16:20:43.140 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:20:43.140 DEBUG: Calling CefQuitMessageLoop()
+- 16:20:43.797 DEBUG: OnBrowserDestroyed()
+- 16:20:43.171 INFO: Ended application
+- 16:20:43.171 INFO: --------------------------------------------------------
+- 16:30:42.156 INFO: --------------------------------------------------------
+- 16:30:42.156 INFO: Started application
+- 16:30:42.156 INFO: Logging to: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log
+- 16:30:42.156 INFO: Log level = DEBUG4
+- 16:30:42.156 INFO: Starting Mongoose 3.9c web server
+- 16:30:42.156 INFO: WWW directory: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\www
+- 16:30:42.156 INFO: Index files: index.html,index.php
+- 16:30:42.156 INFO: CGI interpreter: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\php\php-cgi.exe
+- 16:30:42.156 INFO: CGI pattern: **.php$
+- 16:30:42.156 INFO: Hide files patterns: 
+- 16:30:42.156 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\FRANCI~1\AppData\Local\Temp\
+- 16:30:42.156 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 16:30:42.156 INFO: Web server url: http://127.0.0.1:55762/
+- 16:30:42.156 INFO: remote_debugging_port = 49356
+- 16:30:42.156 DEBUG: Command line string for the browser process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --remote-debugging-port=49356
+- 16:30:42.375 DEBUG: App::OnContextInitialized()
+- 16:30:42.375 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 16:30:42.375 DEBUG: Window max width/height = 1842/984
+- 16:30:42.375 DEBUG: GetBrowserWindow(): not found, hwnd = 657178
+- 16:30:42.375 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 16:30:42.375 DEBUG: BrowserWindow::CreateBrowserControl()
+- 16:30:42.375 DEBUG: StoreBrowserWindow(): hwnd = 657178
+- 16:30:42.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x699f --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.14057.5006 --gpu-driver-date=5-23-2023 --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --service-request-channel-token=9562C6A427F67892479657FA39C50CF3 --mojo-platform-channel-handle=1264 /prefetch:2
+- 16:30:42.437 DEBUG: ClientHandler::OnAfterCreated()
+- 16:30:42.437 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 16:30:42.468 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:30:42.000 DEBUG: Command line string for the renderer process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=AFA4E60851BE5D3352B76C3B93EBB79D --lang=en-US --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=AFA4E60851BE5D3352B76C3B93EBB79D --renderer-client-id=3 --mojo-platform-channel-handle=2380 /prefetch:1
+- 16:30:42.047 DEBUG: OnBrowserCreated()
+[0827/163042.774:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 16:30:43.796 INFO: GET 200 /
+- 16:30:43.812 INFO: GET 200 /style.css
+- 16:30:43.344 DEBUG: OnContextCreated()
+- 16:30:44.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55762/
+- 16:31:28.640 DEBUG: WM_DESTROY
+- 16:31:28.640 DEBUG: RemoveBrowserWindow(): hwnd = 657178
+- 16:31:28.656 INFO: Stopping Mongoose web server
+- 16:31:28.656 DEBUG: Mongoose webserver stopped immediately
+- 16:31:28.671 DEBUG: OnBeforeClose() hwnd=460344
+- 16:31:28.671 DEBUG: RemoveBrowserWindow(): hwnd = 460344
+- 16:31:28.671 DEBUG: GetBrowserWindow(): not found, hwnd = 460344
+- 16:31:28.671 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:31:28.671 DEBUG: Calling CefQuitMessageLoop()
+- 16:31:28.187 DEBUG: OnBrowserDestroyed()
+- 16:31:28.703 INFO: Ended application
+- 16:31:28.703 INFO: --------------------------------------------------------
+- 16:33:43.093 INFO: --------------------------------------------------------
+- 16:33:43.093 INFO: Started application
+- 16:33:43.093 INFO: Logging to: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log
+- 16:33:43.093 INFO: Log level = DEBUG4
+- 16:33:43.093 INFO: Starting Mongoose 3.9c web server
+- 16:33:43.093 INFO: WWW directory: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\www
+- 16:33:43.093 INFO: Index files: index.html,index.php
+- 16:33:43.093 INFO: CGI interpreter: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\php\php-cgi.exe
+- 16:33:43.093 INFO: CGI pattern: **.php$
+- 16:33:43.093 INFO: Hide files patterns: 
+- 16:33:43.093 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\FRANCI~1\AppData\Local\Temp\
+- 16:33:43.093 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 16:33:43.109 INFO: Web server url: http://127.0.0.1:55822/
+- 16:33:43.140 INFO: remote_debugging_port = 62233
+- 16:33:43.140 DEBUG: Command line string for the browser process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --remote-debugging-port=62233
+- 16:33:43.187 DEBUG: App::OnContextInitialized()
+- 16:33:43.187 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 16:33:43.187 DEBUG: Window max width/height = 1842/984
+- 16:33:43.203 DEBUG: GetBrowserWindow(): not found, hwnd = 722464
+- 16:33:43.203 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 16:33:43.203 DEBUG: BrowserWindow::CreateBrowserControl()
+- 16:33:43.203 DEBUG: StoreBrowserWindow(): hwnd = 722464
+- 16:33:43.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x699f --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.14057.5006 --gpu-driver-date=5-23-2023 --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --service-request-channel-token=BD9099567E6FA97FF68BA4CA5D341CC6 --mojo-platform-channel-handle=1528 /prefetch:2
+- 16:33:43.265 DEBUG: ClientHandler::OnAfterCreated()
+- 16:33:43.265 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 16:33:43.281 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:33:43.016 DEBUG: Command line string for the renderer process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=E17EF7A3FF3C60A242F21BA5BF5C1869 --lang=en-US --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E17EF7A3FF3C60A242F21BA5BF5C1869 --renderer-client-id=3 --mojo-platform-channel-handle=2380 /prefetch:1
+[0827/163343.839:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 16:33:43.047 DEBUG: OnBrowserCreated()
+- 16:33:44.484 INFO: GET 200 /
+- 16:33:44.484 INFO: GET 200 /style.css
+- 16:33:44.188 DEBUG: OnContextCreated()
+- 16:33:45.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55822/
+- 16:34:00.546 DEBUG: WM_DESTROY
+- 16:34:00.546 DEBUG: RemoveBrowserWindow(): hwnd = 722464
+- 16:34:00.546 INFO: Stopping Mongoose web server
+- 16:34:00.546 DEBUG: Mongoose webserver stopped immediately
+- 16:34:00.562 DEBUG: OnBeforeClose() hwnd=525880
+- 16:34:00.562 DEBUG: RemoveBrowserWindow(): hwnd = 525880
+- 16:34:00.562 DEBUG: GetBrowserWindow(): not found, hwnd = 525880
+- 16:34:00.562 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:34:00.562 DEBUG: Calling CefQuitMessageLoop()
+- 16:34:00.562 DEBUG: GetBrowserWindow(): not found, hwnd = 722464
+- 16:34:00.266 DEBUG: OnBrowserDestroyed()
+- 16:34:00.562 DEBUG: WindowProc(): event WM_SETFOCUS: could not fetch BrowserWindow
+- 16:34:00.578 DEBUG: GetBrowserWindow(): not found, hwnd = 722464
+- 16:34:00.578 DEBUG: WindowProc(): event WM_SETFOCUS: could not fetch BrowserWindow
+- 16:34:00.609 INFO: Ended application
+- 16:34:00.609 INFO: --------------------------------------------------------
+- 16:34:35.078 INFO: --------------------------------------------------------
+- 16:34:35.078 INFO: Started application
+- 16:34:35.078 INFO: Logging to: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log
+- 16:34:35.078 INFO: Log level = DEBUG4
+- 16:34:35.078 INFO: Starting Mongoose 3.9c web server
+- 16:34:35.078 INFO: WWW directory: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\www
+- 16:34:35.078 INFO: Index files: index.html,index.php
+- 16:34:35.078 INFO: CGI interpreter: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\php\php-cgi.exe
+- 16:34:35.078 INFO: CGI pattern: **.php$
+- 16:34:35.078 INFO: Hide files patterns: 
+- 16:34:35.078 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\FRANCI~1\AppData\Local\Temp\
+- 16:34:35.078 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 16:34:35.078 INFO: Web server url: http://127.0.0.1:55829/
+- 16:34:35.093 INFO: remote_debugging_port = 50314
+- 16:34:35.093 DEBUG: Command line string for the browser process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --remote-debugging-port=50314
+- 16:34:35.156 DEBUG: App::OnContextInitialized()
+- 16:34:35.156 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 16:34:35.156 DEBUG: Window max width/height = 1842/984
+- 16:34:35.156 DEBUG: GetBrowserWindow(): not found, hwnd = 722616
+- 16:34:35.156 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 16:34:35.156 DEBUG: BrowserWindow::CreateBrowserControl()
+- 16:34:35.156 DEBUG: StoreBrowserWindow(): hwnd = 722616
+- 16:34:35.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x699f --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.14057.5006 --gpu-driver-date=5-23-2023 --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --service-request-channel-token=0DB7A9325FA306657B35B633632B2304 --mojo-platform-channel-handle=1808 /prefetch:2
+- 16:34:35.203 DEBUG: ClientHandler::OnAfterCreated()
+- 16:34:35.203 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 16:34:35.234 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:34:35.000 DEBUG: Command line string for the renderer process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=FB13EC2D2CB08DAB9DBD666956912E19 --lang=en-US --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=FB13EC2D2CB08DAB9DBD666956912E19 --renderer-client-id=3 --mojo-platform-channel-handle=2396 /prefetch:1
+[0827/163435.384:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 16:34:35.047 DEBUG: OnBrowserCreated()
+- 16:34:36.437 INFO: GET 200 /style.css
+- 16:34:36.453 INFO: GET 200 /
+- 16:34:36.188 DEBUG: OnContextCreated()
+- 16:34:36.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55829/
+- 16:34:46.281 DEBUG: WM_DESTROY
+- 16:34:46.281 DEBUG: RemoveBrowserWindow(): hwnd = 722616
+- 16:34:46.297 INFO: Stopping Mongoose web server
+- 16:34:46.297 DEBUG: Mongoose webserver stopped immediately
+- 16:34:46.312 DEBUG: OnBeforeClose() hwnd=591416
+- 16:34:46.312 DEBUG: RemoveBrowserWindow(): hwnd = 591416
+- 16:34:46.312 DEBUG: GetBrowserWindow(): not found, hwnd = 591416
+- 16:34:46.312 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:34:46.312 DEBUG: Calling CefQuitMessageLoop()
+- 16:34:46.312 DEBUG: GetBrowserWindow(): not found, hwnd = 722616
+- 16:34:46.312 DEBUG: WindowProc(): event WM_SETFOCUS: could not fetch BrowserWindow
+- 16:34:46.047 DEBUG: OnBrowserDestroyed()
+- 16:34:46.328 DEBUG: GetBrowserWindow(): not found, hwnd = 722616
+- 16:34:46.343 DEBUG: WindowProc(): event WM_SETFOCUS: could not fetch BrowserWindow
+- 16:34:46.359 INFO: Ended application
+- 16:34:46.359 INFO: --------------------------------------------------------
+- 16:36:18.078 INFO: --------------------------------------------------------
+- 16:36:18.078 INFO: Started application
+- 16:36:18.078 INFO: Logging to: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log
+- 16:36:18.078 INFO: Log level = DEBUG4
+- 16:36:18.078 INFO: Starting Mongoose 3.9c web server
+- 16:36:18.078 INFO: WWW directory: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\www
+- 16:36:18.078 INFO: Index files: index.html,index.php
+- 16:36:18.078 INFO: CGI interpreter: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\php\php-cgi.exe
+- 16:36:18.078 INFO: CGI pattern: **.php$
+- 16:36:18.078 INFO: Hide files patterns: 
+- 16:36:18.078 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\FRANCI~1\AppData\Local\Temp\
+- 16:36:18.078 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 16:36:18.094 INFO: Web server url: http://127.0.0.1:55839/
+- 16:36:18.094 INFO: remote_debugging_port = 50404
+- 16:36:18.094 DEBUG: Command line string for the browser process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --remote-debugging-port=50404
+- 16:36:18.156 DEBUG: App::OnContextInitialized()
+- 16:36:18.156 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 16:36:18.156 DEBUG: Window max width/height = 1842/984
+- 16:36:18.156 DEBUG: GetBrowserWindow(): not found, hwnd = 788152
+- 16:36:18.156 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 16:36:18.156 DEBUG: BrowserWindow::CreateBrowserControl()
+- 16:36:18.156 DEBUG: StoreBrowserWindow(): hwnd = 788152
+- 16:36:18.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x699f --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.14057.5006 --gpu-driver-date=5-23-2023 --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --service-request-channel-token=6865EECE5CF168234A15D3B4643B50C2 --mojo-platform-channel-handle=1824 /prefetch:2
+- 16:36:18.203 DEBUG: ClientHandler::OnAfterCreated()
+- 16:36:18.203 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 16:36:18.234 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:36:18.000 DEBUG: Command line string for the renderer process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=46959BA6B8EB79507408E588CFFD7872 --lang=en-US --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=46959BA6B8EB79507408E588CFFD7872 --renderer-client-id=3 --mojo-platform-channel-handle=2388 /prefetch:1
+[0827/163618.259:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 16:36:18.031 DEBUG: OnBrowserCreated()
+- 16:36:19.406 INFO: GET 200 /
+- 16:36:19.406 INFO: GET 200 /style.css
+- 16:36:19.172 DEBUG: OnContextCreated()
+- 16:36:19.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55839/
+- 16:36:21.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55839/
+- 16:36:21.922 INFO: GET 200 /banco.php
+- 16:36:21.672 DEBUG: OnContextCreated()
+- 16:36:21.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55839/banco.php
+- 16:36:24.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55839/banco.php
+- 16:36:24.453 INFO: GET 200 /banco.php
+- 16:36:24.203 DEBUG: OnContextCreated()
+- 16:36:24.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55839/banco.php
+- 16:36:25.828 DEBUG: WM_DESTROY
+- 16:36:25.828 DEBUG: RemoveBrowserWindow(): hwnd = 788152
+- 16:36:25.828 INFO: Stopping Mongoose web server
+- 16:36:25.844 DEBUG: Mongoose webserver stopped immediately
+- 16:36:25.844 DEBUG: OnBeforeClose() hwnd=526016
+- 16:36:25.844 DEBUG: RemoveBrowserWindow(): hwnd = 526016
+- 16:36:25.859 DEBUG: GetBrowserWindow(): not found, hwnd = 526016
+- 16:36:25.859 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:36:25.859 DEBUG: Calling CefQuitMessageLoop()
+- 16:36:25.859 DEBUG: GetBrowserWindow(): not found, hwnd = 788152
+- 16:36:25.859 DEBUG: WindowProc(): event WM_SETFOCUS: could not fetch BrowserWindow
+- 16:36:25.609 DEBUG: OnBrowserDestroyed()
+- 16:36:25.875 DEBUG: GetBrowserWindow(): not found, hwnd = 788152
+- 16:36:25.875 DEBUG: WindowProc(): event WM_SETFOCUS: could not fetch BrowserWindow
+- 16:36:25.891 INFO: Ended application
+- 16:36:25.891 INFO: --------------------------------------------------------
+- 16:39:02.078 INFO: --------------------------------------------------------
+- 16:39:02.078 INFO: Started application
+- 16:39:02.078 INFO: Logging to: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log
+- 16:39:02.078 INFO: Log level = DEBUG4
+- 16:39:02.078 INFO: Starting Mongoose 3.9c web server
+- 16:39:02.078 INFO: WWW directory: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\www
+- 16:39:02.078 INFO: Index files: index.html,index.php
+- 16:39:02.078 INFO: CGI interpreter: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\php\php-cgi.exe
+- 16:39:02.078 INFO: CGI pattern: **.php$
+- 16:39:02.078 INFO: Hide files patterns: 
+- 16:39:02.078 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\FRANCI~1\AppData\Local\Temp\
+- 16:39:02.078 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 16:39:02.078 INFO: Web server url: http://127.0.0.1:55849/
+- 16:39:02.078 INFO: remote_debugging_port = 49330
+- 16:39:02.078 DEBUG: Command line string for the browser process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --remote-debugging-port=49330
+- 16:39:02.172 DEBUG: App::OnContextInitialized()
+- 16:39:02.172 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 16:39:02.172 DEBUG: Window max width/height = 1842/984
+- 16:39:02.172 DEBUG: GetBrowserWindow(): not found, hwnd = 919072
+- 16:39:02.172 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 16:39:02.172 DEBUG: BrowserWindow::CreateBrowserControl()
+- 16:39:02.172 DEBUG: StoreBrowserWindow(): hwnd = 919072
+- 16:39:02.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x699f --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.14057.5006 --gpu-driver-date=5-23-2023 --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --service-request-channel-token=07D8B3FF84EB8CE84F597152E916CE77 --mojo-platform-channel-handle=1804 /prefetch:2
+- 16:39:02.234 DEBUG: ClientHandler::OnAfterCreated()
+- 16:39:02.234 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 16:39:02.266 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:39:02.000 DEBUG: Command line string for the renderer process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=1B3C7298EF6259B429AC4CC6465A697E --lang=en-US --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1B3C7298EF6259B429AC4CC6465A697E --renderer-client-id=3 --mojo-platform-channel-handle=2380 /prefetch:1
+[0827/163902.993:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 16:39:03.047 DEBUG: OnBrowserCreated()
+- 16:39:04.438 INFO: GET 200 /
+- 16:39:04.438 INFO: GET 200 /style.css
+- 16:39:04.172 DEBUG: OnContextCreated()
+- 16:39:04.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55849/
+- 16:39:05.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55849/
+- 16:39:05.266 INFO: GET 200 /banco.php
+- 16:39:05.000 DEBUG: OnContextCreated()
+- 16:39:05.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55849/banco.php
+- 16:39:08.328 DEBUG: WM_DESTROY
+- 16:39:08.328 DEBUG: RemoveBrowserWindow(): hwnd = 919072
+- 16:39:08.328 INFO: Stopping Mongoose web server
+- 16:39:08.328 DEBUG: Mongoose webserver stopped immediately
+- 16:39:08.344 DEBUG: OnBeforeClose() hwnd=723006
+- 16:39:08.344 DEBUG: RemoveBrowserWindow(): hwnd = 723006
+- 16:39:08.344 DEBUG: GetBrowserWindow(): not found, hwnd = 723006
+- 16:39:08.344 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:39:08.344 DEBUG: Calling CefQuitMessageLoop()
+- 16:39:08.344 DEBUG: GetBrowserWindow(): not found, hwnd = 919072
+- 16:39:08.344 DEBUG: WindowProc(): event WM_SETFOCUS: could not fetch BrowserWindow
+- 16:39:08.063 DEBUG: OnBrowserDestroyed()
+- 16:39:08.359 DEBUG: GetBrowserWindow(): not found, hwnd = 919072
+- 16:39:08.359 DEBUG: WindowProc(): event WM_SETFOCUS: could not fetch BrowserWindow
+- 16:39:08.375 INFO: Ended application
+- 16:39:08.375 INFO: --------------------------------------------------------
+- 17:06:11.094 INFO: --------------------------------------------------------
+- 17:06:11.094 INFO: Started application
+- 17:06:11.094 INFO: Logging to: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log
+- 17:06:11.094 INFO: Log level = DEBUG4
+- 17:06:11.094 INFO: Starting Mongoose 3.9c web server
+- 17:06:11.094 INFO: WWW directory: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\www
+- 17:06:11.094 INFO: Index files: index.html,index.php
+- 17:06:11.094 INFO: CGI interpreter: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\php\php-cgi.exe
+- 17:06:11.094 INFO: CGI pattern: **.php$
+- 17:06:11.094 INFO: Hide files patterns: 
+- 17:06:11.094 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\FRANCI~1\AppData\Local\Temp\
+- 17:06:11.094 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 17:06:11.109 INFO: Web server url: http://127.0.0.1:56024/
+- 17:06:11.109 INFO: remote_debugging_port = 55754
+- 17:06:11.109 DEBUG: Command line string for the browser process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --remote-debugging-port=55754
+- 17:06:11.156 DEBUG: App::OnContextInitialized()
+- 17:06:11.156 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 17:06:11.156 DEBUG: Window max width/height = 1842/984
+- 17:06:11.156 DEBUG: GetBrowserWindow(): not found, hwnd = 591898
+- 17:06:11.172 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 17:06:11.172 DEBUG: BrowserWindow::CreateBrowserControl()
+- 17:06:11.172 DEBUG: StoreBrowserWindow(): hwnd = 591898
+- 17:06:11.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x699f --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.14057.5006 --gpu-driver-date=5-23-2023 --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --service-request-channel-token=D810BC4E7229FE85F6DBD13C1EAF14EE --mojo-platform-channel-handle=1800 /prefetch:2
+- 17:06:11.219 DEBUG: ClientHandler::OnAfterCreated()
+- 17:06:11.219 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 17:06:11.250 DEBUG: OnLoadingStateChange: loading=1, url=
+- 17:06:11.000 DEBUG: Command line string for the renderer process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=EA55C41E38914F2EA8443293CC61772A --lang=en-US --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=EA55C41E38914F2EA8443293CC61772A --renderer-client-id=3 --mojo-platform-channel-handle=2384 /prefetch:1
+[0827/170611.537:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 17:06:11.047 DEBUG: OnBrowserCreated()
+- 17:06:12.469 INFO: GET 200 /
+- 17:06:12.469 INFO: GET 200 /style.css
+- 17:06:12.203 DEBUG: OnContextCreated()
+- 17:06:12.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56024/
+- 17:06:24.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56024/
+- 17:06:24.375 INFO: GET 200 /banco.php
+- 17:06:24.094 DEBUG: OnContextCreated()
+- 17:06:24.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56024/banco.php
+- 17:06:41.281 DEBUG: WM_DESTROY
+- 17:06:41.281 DEBUG: RemoveBrowserWindow(): hwnd = 591898
+- 17:06:41.281 INFO: Stopping Mongoose web server
+- 17:06:41.281 DEBUG: Mongoose webserver stopped immediately
+- 17:06:41.297 DEBUG: OnBeforeClose() hwnd=591920
+- 17:06:41.297 DEBUG: RemoveBrowserWindow(): hwnd = 591920
+- 17:06:41.297 DEBUG: GetBrowserWindow(): not found, hwnd = 591920
+- 17:06:41.297 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 17:06:41.297 DEBUG: Calling CefQuitMessageLoop()
+- 17:06:41.031 DEBUG: OnBrowserDestroyed()
+- 17:06:41.328 INFO: Ended application
+- 17:06:41.328 INFO: --------------------------------------------------------
+- 17:22:09.000 INFO: --------------------------------------------------------
+- 17:22:09.000 INFO: Started application
+- 17:22:09.000 INFO: Logging to: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log
+- 17:22:09.000 INFO: Log level = DEBUG4
+- 17:22:09.000 INFO: Starting Mongoose 3.9c web server
+- 17:22:09.000 INFO: WWW directory: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\www
+- 17:22:09.000 INFO: Index files: index.html,index.php
+- 17:22:09.000 INFO: CGI interpreter: C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\php\php-cgi.exe
+- 17:22:09.000 INFO: CGI pattern: **.php$
+- 17:22:09.000 INFO: Hide files patterns: 
+- 17:22:09.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\FRANCI~1\AppData\Local\Temp\
+- 17:22:09.000 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 17:22:09.015 INFO: Web server url: http://127.0.0.1:56165/
+- 17:22:09.015 INFO: remote_debugging_port = 65535
+- 17:22:09.015 DEBUG: Command line string for the browser process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --remote-debugging-port=65535
+- 17:22:09.062 DEBUG: App::OnContextInitialized()
+- 17:22:09.062 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 17:22:09.062 DEBUG: Window max width/height = 1842/984
+- 17:22:09.062 DEBUG: GetBrowserWindow(): not found, hwnd = 591330
+- 17:22:09.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 17:22:09.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 17:22:09.062 DEBUG: StoreBrowserWindow(): hwnd = 591330
+- 17:22:09.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x699f --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.14057.5006 --gpu-driver-date=5-23-2023 --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --service-request-channel-token=13A36DD494991BE6EABB8CE1898734BF --mojo-platform-channel-handle=1228 /prefetch:2
+- 17:22:09.094 DEBUG: ClientHandler::OnAfterCreated()
+- 17:22:09.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 17:22:09.109 DEBUG: OnLoadingStateChange: loading=1, url=
+- 17:22:09.000 DEBUG: Command line string for the renderer process: "C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=FC26B1819A0800F3108383AF70AB3685 --lang=en-US --lang=en-US --log-file="C:\Users\Francisco\Documents\GitHub\islero-helper\PHPDesktop-PHP-8.2.9\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=FC26B1819A0800F3108383AF70AB3685 --renderer-client-id=3 --mojo-platform-channel-handle=2228 /prefetch:1
+- 17:22:09.047 DEBUG: OnBrowserCreated()
+[0827/172209.356:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 17:22:10.359 INFO: GET 200 /
+- 17:22:10.359 INFO: GET 200 /style.css
+- 17:22:10.235 DEBUG: OnContextCreated()
+- 17:22:10.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56165/
+- 17:22:15.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56165/
+- 17:22:15.328 INFO: GET 200 /banco.php
+- 17:22:15.188 DEBUG: OnContextCreated()
+- 17:22:15.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56165/banco.php
+- 17:22:17.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56165/banco.php
+- 17:22:17.531 INFO: GET 200 /banco.php
+- 17:22:17.391 DEBUG: OnContextCreated()
+- 17:22:17.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56165/banco.php
+- 17:22:18.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56165/banco.php
+- 17:22:18.172 INFO: GET 200 /banco.php
+- 17:22:18.032 DEBUG: OnContextCreated()
+- 17:22:18.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56165/banco.php
+- 17:22:21.937 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56165/banco.php
+- 17:22:21.813 DEBUG: OnContextCreated()
+- 17:22:21.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56165/
+- 17:27:43.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56165/
+- 17:27:43.578 INFO: GET -1 /old_php
+- 17:27:43.719 INFO: GET 200 /old_php/
+- 17:27:43.594 DEBUG: OnContextCreated()
+- 17:27:43.734 INFO: GET 200 /old_php/style.css
+- 17:27:43.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56165/old_php/
+- 17:27:47.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56165/old_php/
+- 17:27:47.625 DEBUG: OnContextCreated()
+- 17:27:47.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56165/
+- 17:27:50.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56165/
+- 17:27:50.453 INFO: GET 200 /banco.php
+- 17:27:50.313 DEBUG: OnContextCreated()
+- 17:27:50.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56165/banco.php
+- 17:31:23.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:56165/banco.php
+- 17:31:23.141 DEBUG: OnContextCreated()
+- 17:31:23.281 INFO: GET 200 /banco.php
+- 17:31:23.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:56165/banco.php
+- 17:34:48.687 DEBUG: WM_DESTROY
+- 17:34:48.687 DEBUG: RemoveBrowserWindow(): hwnd = 591330
+- 17:34:48.687 INFO: Stopping Mongoose web server
+- 17:34:48.687 DEBUG: Mongoose webserver stopped immediately
+- 17:34:48.703 DEBUG: OnBeforeClose() hwnd=1443836
+- 17:34:48.703 DEBUG: RemoveBrowserWindow(): hwnd = 1443836
+- 17:34:48.703 DEBUG: GetBrowserWindow(): not found, hwnd = 1443836
+- 17:34:48.703 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 17:34:48.703 DEBUG: Calling CefQuitMessageLoop()
+- 17:34:48.579 DEBUG: OnBrowserDestroyed()
+- 17:34:48.734 INFO: Ended application
+- 17:34:48.734 INFO: --------------------------------------------------------
