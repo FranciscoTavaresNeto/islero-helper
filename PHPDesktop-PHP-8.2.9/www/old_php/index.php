@@ -1,18 +1,19 @@
 <style type="text/css">@import url("style.css");</style>
 <a href="<?php echo $_SERVER["REQUEST_URI"];?>">Refresh</a>
 
-<title>Islero Helper</title>
+<title>PHP Desktop Chrome</title>
+<h1>PHP Desktop Chrome</h1>
 
 <p>
-<b>Versão do PHP Desktop:</b> <?php echo $_ENV["PHPDESKTOP_VERSION"]; ?>
+<b>PHP Desktop version:</b> <?php echo $_ENV["PHPDESKTOP_VERSION"]; ?>
 </p>
 
 <p>
-<b>Versão do Chrome:</b> <script>document.write(navigator.userAgent);</script>
+<b>Chrome version:</b> <script>document.write(navigator.userAgent);</script>
 </p>
 
 <p>
-<b>Versão do PHP:</b> <?php echo phpversion(); ?>
+<b>PHP version:</b> <?php echo phpversion(); ?>
 </p>
 
 <p>
@@ -42,3 +43,7 @@ foreach ($files as $file) {
 ?>
 
 <hr>
+Project website:
+<a href="http://github.com/cztomczak/phpdesktop">
+    http://github.com/cztomczak/phpdesktop
+</a>
