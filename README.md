@@ -1,5 +1,5 @@
 # islero-helper
-Ajudante pro meu dia-a-dia feito em Angular (ainda não decidi o back-end)
+Ajudante pro meu dia-a-dia feito em PHP?
 
 ### Módulos
 
@@ -9,8 +9,6 @@ Ajudante pro meu dia-a-dia feito em Angular (ainda não decidi o back-end)
         pra escolher o módulo
     -Calculadora
         Pra manter o controle do meu dinheiro
-    -Gerenciador de Máscaras
-        Uma ferramenta pra gerenciar o tempo que as minhas pff2 ficam "arejando"
     -Dashboard
         Um mural de anotações e recados    
     -Delta de Commits
