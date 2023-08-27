@@ -1,0 +1,45 @@
+- 13:29:44.109 INFO: --------------------------------------------------------
+- 13:29:44.109 INFO: Started application
+- 13:29:44.109 INFO: Logging to: C:\Users\Francisco\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 13:29:44.109 INFO: Log level = DEBUG4
+- 13:29:44.109 INFO: Starting Mongoose 3.9c web server
+- 13:29:44.109 INFO: WWW directory: C:\Users\Francisco\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 13:29:44.109 INFO: Index files: index.html,index.php
+- 13:29:44.109 INFO: CGI interpreter: C:\Users\Francisco\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 13:29:44.109 INFO: CGI pattern: **.php$
+- 13:29:44.109 INFO: Hide files patterns: 
+- 13:29:44.109 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\FRANCI~1\AppData\Local\Temp\
+- 13:29:44.109 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 13:29:44.125 INFO: Web server url: http://127.0.0.1:50803/
+- 13:29:44.125 INFO: remote_debugging_port = 56886
+- 13:29:44.125 DEBUG: Command line string for the browser process: "C:\Users\Francisco\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Francisco\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=56886
+- 13:29:45.203 DEBUG: App::OnContextInitialized()
+- 13:29:45.203 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 13:29:45.203 DEBUG: Window max width/height = 1842/984
+- 13:29:45.203 DEBUG: GetBrowserWindow(): not found, hwnd = 67504
+- 13:29:45.203 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:29:45.203 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:29:45.203 DEBUG: StoreBrowserWindow(): hwnd = 67504
+- 13:29:45.250 DEBUG: ClientHandler::OnAfterCreated()
+- 13:29:45.250 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:29:45.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Francisco\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Francisco\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x699f --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=31.0.14057.5006 --gpu-driver-date=5-23-2023 --lang=en-US --log-file="C:\Users\Francisco\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=B765AC83944336C5AAAF34D1A84C61B2 --mojo-platform-channel-handle=1880 /prefetch:2
+- 13:29:45.266 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:29:45.000 DEBUG: Command line string for the renderer process: "C:\Users\Francisco\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=7F65C5676BF5A7B9A4379BE2AA884CAA --lang=en-US --lang=en-US --log-file="C:\Users\Francisco\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=7F65C5676BF5A7B9A4379BE2AA884CAA --renderer-client-id=3 --mojo-platform-channel-handle=2420 /prefetch:1
+- 13:29:45.032 DEBUG: OnBrowserCreated()
+[0827/132945.245:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 13:29:46.625 INFO: GET 200 /
+- 13:29:46.641 INFO: GET 200 /style.css
+- 13:29:46.329 DEBUG: OnContextCreated()
+- 13:29:46.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50803/
+- 13:30:00.281 DEBUG: WM_DESTROY
+- 13:30:00.281 DEBUG: RemoveBrowserWindow(): hwnd = 67504
+- 13:30:00.281 INFO: Stopping Mongoose web server
+- 13:30:00.281 DEBUG: Mongoose webserver stopped immediately
+- 13:30:00.297 DEBUG: OnBeforeClose() hwnd=67512
+- 13:30:00.297 DEBUG: RemoveBrowserWindow(): hwnd = 67512
+- 13:30:00.297 DEBUG: GetBrowserWindow(): not found, hwnd = 67512
+- 13:30:00.297 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:30:00.297 DEBUG: Calling CefQuitMessageLoop()
+- 13:30:00.000 DEBUG: OnBrowserDestroyed()
+- 13:30:00.344 INFO: Ended application
+- 13:30:00.344 INFO: --------------------------------------------------------
